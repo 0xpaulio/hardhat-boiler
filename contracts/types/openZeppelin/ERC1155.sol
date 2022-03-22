@@ -5,7 +5,7 @@ pragma solidity ^0.8.0;
 
 import "../../interfaces/openZeppelin/IERC1155.sol";
 import "../../interfaces/openZeppelin/IERC1155Receiver.sol";
-import "./extensions/IERC1155MetadataURI.sol";
+import "../../interfaces/openZeppelin/IERC1155MetadataURI.sol";
 import "../../libraries/openZeppelin/Address.sol";
 import "../../libraries/openZeppelin/Context.sol";
 import "./ERC165.sol";
